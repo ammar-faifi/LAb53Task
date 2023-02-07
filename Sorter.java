@@ -34,11 +34,9 @@ public class SelectionSortExample {
         ob.sort(arr);
  
         printArray(arr);
-        public static void sort(int[] array) {
-            selectionSort(array);
-        }
 
         public static void sort(int arr[]){
+            selectionSort(array);
 
             int n = arr.length;
             
