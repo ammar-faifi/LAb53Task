@@ -12,7 +12,7 @@ public class SelectionSortExample {
             arr[index] = arr[i];
             arr[i] = smallerNumber;
         }
-    }
+}
 
 public class InsertionSort {
     void sort(int arr[]){
@@ -43,25 +43,15 @@ public class InsertionSort {
         }
 
     public static void main(String a[]){
-        int[] arr1 = {9,14,3,2,43,11,58,22};
-        System.out.println("Before Selection Sort");
-        for(int i:arr1){
-            System.out.print(i+" ");
-        }
-        System.out.println();
-
-        selectionSort(arr1);//sorting array using selection sort
-
-        System.out.println("After Selection Sort");
-        for(int i:arr1){
-            System.out.print(i+" ");
-        }
         int arr[] = { 12, 11, 13, 5, 6 };
  
         InsertionSort ob = new InsertionSort();
         ob.sort(arr);
  
         printArray(arr);
+        public static void sort(int[] array) {
+            selectionSort(array);
+        }
 
     }
 }
